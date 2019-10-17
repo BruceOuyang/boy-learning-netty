@@ -98,6 +98,16 @@
 
 * 怎么切换
 
+修改  
+
+EventLoopGroup —— 开发模式  
+
+SockectChannel —— I/O 模式
+
 * 原理是什么
 
+    泛型+反射+工厂 实现 I/O 模式的切换
+
 * 为什么服务器开发并不需要切换客户端对应 Socket
+
+    Reactor 模式，死循环监听处理事件
