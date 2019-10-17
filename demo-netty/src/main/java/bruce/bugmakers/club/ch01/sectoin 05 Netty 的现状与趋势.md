@@ -8,7 +8,7 @@
 
 * 维护者
 
-22 members (core: Trustin Lee and Norman Maurer)
+    22 members (core: Trustin Lee and Norman Maurer)
 
 * 分支
 
