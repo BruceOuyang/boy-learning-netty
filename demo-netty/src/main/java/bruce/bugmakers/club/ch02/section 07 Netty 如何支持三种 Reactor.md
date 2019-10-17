@@ -84,14 +84,22 @@ bootstrap.group(bossGroup, workerGroup);
 
 ## 解析 Netty 对 Reactor 模式支持的常见疑问
 
-* Netty 如何支持主从 Reactor 模式的？源码上理解
+* Netty 如何支持主从 Reactor 模式的？  
+    
+    源码上理解
 
-* 为什么说 Netty 的 main reactor 大多并不能用到一个线程组，只能线程组里边的一个？源码上理解
+* 为什么说 Netty 的 main reactor 大多并不能用到一个线程组，只能线程组里边的一个？  
 
-* Netty 给 Channel 分配 NIO event loop 的规则是什么？源码上理解
+    源码上理解
 
-* 通用模式的 NIO 实现多路复用器是怎么跨平台的？源码上理解
+* Netty 给 Channel 分配 NIO event loop 的规则是什么？  
 
-SeletorProvider.provider()  
-loadProviderAsService()  
-DefaultProviderSelector.create(); // 这里就是不用的平台的实现了
+    源码上理解
+
+* 通用模式的 NIO 实现多路复用器是怎么跨平台的？  
+
+    源码上理解
+
+    SeletorProvider.provider()  
+    loadProviderAsService()  
+    DefaultProviderSelector.create(); // 这里就是不用的平台的实现了

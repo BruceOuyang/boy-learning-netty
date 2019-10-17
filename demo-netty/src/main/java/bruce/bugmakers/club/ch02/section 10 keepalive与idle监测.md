@@ -107,4 +107,6 @@ Idle 监测，只是负责诊断，诊断后，做出不同的行为，决定 Id
 
 开启不同的 Idle Check：  
 
-* ch.pipeline().addLast("idleCheckHandler", new IdleStateHandler(0, 20, 0, TimeUnit.Seconds));
+```java
+ch.pipeline().addLast("idleCheckHandler", new IdleStateHandler(0, 20, 0, TimeUnit.Seconds));
+```

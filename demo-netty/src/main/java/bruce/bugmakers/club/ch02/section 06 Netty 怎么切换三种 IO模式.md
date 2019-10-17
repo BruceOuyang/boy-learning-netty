@@ -64,15 +64,15 @@
 
 * 为什么不建议阻塞I/O (BIO 或 OIO)？
 
-连接数高的情况下，阻塞 -> 耗资源、效率低
+    连接数高的情况下，阻塞 -> 耗资源、效率低
 
 * 为什么删除已经做好的 AIO 支持？
 
-* Windows 实现成熟，但是windows系统很好用来做服务器
+    * Windows 实现成熟，但是windows系统很好用来做服务器
 
-* Linux 常用来做服务器，但是 AIO 实现不够成熟
+    * Linux 常用来做服务器，但是 AIO 实现不够成熟
 
-* Linux 下 AIO 相比较 NIO 性能提升不明显
+    * Linux 下 AIO 相比较 NIO 性能提升不明显
    
 ## 为什么 Netty 有多种 NIO 实现？
 
@@ -98,11 +98,11 @@
 
 * 怎么切换
 
-修改  
+    修改  
 
-EventLoopGroup —— 开发模式  
+    EventLoopGroup —— 开发模式  
 
-SocketChannel —— I/O 模式
+    SocketChannel —— I/O 模式
 
 * 原理是什么
 
