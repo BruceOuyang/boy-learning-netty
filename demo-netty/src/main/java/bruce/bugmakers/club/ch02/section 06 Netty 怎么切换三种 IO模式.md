@@ -102,7 +102,7 @@
 
 EventLoopGroup —— 开发模式  
 
-SockectChannel —— I/O 模式
+SocketChannel —— I/O 模式
 
 * 原理是什么
 
